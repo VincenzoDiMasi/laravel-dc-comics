@@ -11,5 +11,7 @@
 <body>
     {{-- Header --}}
     @include('includes.header')
+    {{-- Jumbo --}}
+    @include('includes.jumbotron')
 </body>
 </html>
