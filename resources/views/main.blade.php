@@ -11,7 +11,32 @@
 <body>
     {{-- Header --}}
     @include('includes.header')
-    {{-- Jumbo --}}
+{{-- Jumbo --}}
     @include('includes.jumbotron')
+
+    {{-- Main --}}
+    <main>
+        <div class="card-container">
+           
+            @foreach ($cards as $card)
+                <div class="card">
+                    <div class="comic-card">
+                        <img src="{{ $card['thumb'] }}" :alt="card.series">
+                        <h4>{{ $card['series'] }} </h4>
+                    </div>
+                </div>
+            @endforeach 
+
+            <button class="btn-blue">Load more</button>
+        </div>
+    </main>
+
+
+   
+
+    @include('includes.shop')
+
+    {{-- Footer  --}}
+    @include('includes.footer')
 </body>
 </html>
