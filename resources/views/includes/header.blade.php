@@ -1,5 +1,5 @@
 <header>
-    {{-- Qui metto la parte superiore dell'header --}}
+    
     <div class="header-top">
         <ul>
             <li>
@@ -12,9 +12,8 @@
     </div>
     
     <div class="header-bottom">
-        {{-- logo DC  --}}
         <figure>
-            <img src="{{ Vite::asset('public/img/dc-logo.png') }}" alt="">
+            <img src="{{ Vite::asset('img/dc-logo.png') }}" alt="">
         </figure>
         <nav>
             <ul>
