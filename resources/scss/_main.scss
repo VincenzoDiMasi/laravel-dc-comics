@@ -7,11 +7,7 @@ main {
     align-items: center;
 
 
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 2rem;
+    
 
         .card {
             flex-basis: calc(100% / 6);  
@@ -37,7 +33,7 @@ main {
                     text-align: center;
                 }       
         }
-    }
+    
 
     .btn-blue {
         background-color: #0282F9;

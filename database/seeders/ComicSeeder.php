@@ -26,6 +26,7 @@ class ComicSeeder extends Seeder
             $new_comic->type = $comic['type'];
             $new_comic->artists = implode(", ", $comic['artists']);
             $new_comic->writers = implode(", ", $comic['writers']);
+            $new_comic->thumb = $comic['thumb'];
 
 
             $new_comic->save();
