@@ -20,10 +20,13 @@
            
             @foreach ($cards as $card)
                <div class="card" style="width: 18rem;">
+                <a href="/comics">
                     <img class="img-fluid" src="{{ $card['thumb'] }}" :alt="$card.series">
                     <div class="card-body">
                         <h4>{{ $card['series'] }} </h4>
                     </div>
+                </a>
+
                 </div>
             @endforeach 
 
