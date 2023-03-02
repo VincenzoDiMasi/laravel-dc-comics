@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    {{-- @include('includes.header') --}}
+    @include('includes.header')
 
     {{-- @include('includes.jumbotron') --}}
 
@@ -30,10 +30,12 @@
             @endforeach 
 
             <div class="d-flex justify-content-center">
-                <button class="btn-blue">Load more</button>
+                {{-- <button class="btn-blue">Load more</button> --}}
+                
                 <a class="btn-success btn ms-3 btn-add" href="{{route('comics.create')}}">Add new comic</a>
             </div>
         </div>
+        
     </main>
 
 

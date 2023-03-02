@@ -13,7 +13,7 @@
         
     </div>
     
-    <div class="container d-flex align-items-center justify-content-around">
+    <div id="header-bottom" class="container d-flex align-items-center justify-content-around">
         <figure>
             <a href="/">
                 <img src="{{ asset('img/dc-logo.png') }}" alt="">
