@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="container ">
 
         <nav>
         <!-- lista di Dc comics  -->
