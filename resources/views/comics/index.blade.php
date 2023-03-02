@@ -11,9 +11,9 @@
 </head>
 <body>
 
-    @include('includes.header')
+    {{-- @include('includes.header') --}}
 
-    @include('includes.jumbotron')
+    {{-- @include('includes.jumbotron') --}}
 
     
     <main>
@@ -40,6 +40,6 @@
     @include('includes.shop')
 
     {{-- Footer  --}}
-    @include('includes.footer')
+    {{-- @include('includes.footer') --}}
 </body>
 </html>

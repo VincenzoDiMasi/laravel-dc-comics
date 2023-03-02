@@ -9,9 +9,9 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    @include('includes.header')
+    {{-- @include('includes.header')
 
-    @include('includes.jumbotron')
+    @include('includes.jumbotron') --}}
 
     <section id="details" class="bg-white p-5">
 
