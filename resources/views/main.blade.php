@@ -21,13 +21,14 @@
             @foreach ($cards as $card)
                 <div class="card">
                     <div class="comic-card">
-                        <img src="{{ $card['thumb'] }}" :alt="card.series">
+                        <img src="{{ $card['thumb'] }}" :alt="$card.series">
                         <h4>{{ $card['series'] }} </h4>
                     </div>
                 </div>
             @endforeach 
 
             <button class="btn-blue">Load more</button>
+            <a class="btn-success btn ms-3 btn-add" href="{{route('comics.create')}}">Add new comic</a>
         </div>
     </main>
 

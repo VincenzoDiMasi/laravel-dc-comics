@@ -13,7 +13,10 @@
     
     <div class="header-bottom">
         <figure>
-            <img src="{{ asset('img/dc-logo.png') }}" alt="">
+            <a href="/">
+                <img src="{{ asset('img/dc-logo.png') }}" alt="">
+            </a>
+            
         </figure>
         <nav>
             <ul>

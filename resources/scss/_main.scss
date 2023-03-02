@@ -13,7 +13,7 @@ main {
         flex-wrap: wrap;
         justify-content: center;
         margin: 2rem;
-        
+
         .card {
             flex-basis: calc(100% / 6);  
             margin: 1.5rem 10px;
@@ -57,5 +57,16 @@ main {
             color: #0282F9;
             background-color: #fff;
         }
+    }
+
+    .btn-add {
+        padding: 10px 30px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.25s;
+
     }
 }
