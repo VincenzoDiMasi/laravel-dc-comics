@@ -19,14 +19,14 @@
         <div class="card-container">
            
             @foreach ($cards as $card)
-                <div class="card">
-                    <div class="comic-card">
-                        <img src="{{ $card['thumb'] }}" :alt="$card.series">
+               <div class="card" style="width: 18rem;">
+                    <img class="img-fluid" src="{{ $card['thumb'] }}" :alt="$card.series">
+                    <div class="card-body">
                         <h4>{{ $card['series'] }} </h4>
                     </div>
                 </div>
             @endforeach 
-            
+
             <div class="d-flex justify-content-center">
                 <button class="btn-blue">Load more</button>
                 <a class="btn-success btn ms-3 btn-add" href="{{route('comics.create')}}">Add new comic</a>

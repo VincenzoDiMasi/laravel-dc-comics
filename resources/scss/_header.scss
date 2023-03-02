@@ -1,10 +1,10 @@
 header {
-    width: 100vh;
-    .header-top {
-        height: 25px;
+    // width: 100vh;
+    #blue-stripe {
+        height: 30px;
         background-color: dodgerblue;
         color: white;
-        // padding: 0 12.5%;
+        padding: 3px 12.5%;
 
         ul {
             display: flex;
@@ -14,45 +14,81 @@ header {
                 a {
                     color: white;
                     margin-left: 3rem;
+                    font-size: 10px;
                 }
             }
         }
     }
 
-    .header-bottom {
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 12.5%;
-        margin-right: 33.5%;
 
-        img {
-            height: 75px;
-        }
-        ul{
+    // .header-bottom {
+    //     height: 100px;
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     padding: 0 12.5%;
+    //     margin-right: 33.5%;
+
+    //     img {
+    //         height: 75px;
+    //     }
+    //     ul{
+    //         display: flex;
+    //         margin: 0;
+    //         justify-content: flex-end;
+    //         li {
+    //             margin: 0 1rem;
+    //             a {
+    //                 font-size: 20.5px;
+    //                 text-transform: uppercase;
+    //                 color: black;
+
+    //                 &:hover {
+    //                     color: dodgerblue;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+
+    // .active {
+    //     text-decoration: underline dodgerblue;
+    //     color: dodgerblue;
+    // }
+
+
+
+    // .container {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    // }
+    img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 70px;
+        
+    }
+    nav {
+        // margin-left: 200px;
+        ul {
             display: flex;
-            margin: 0;
-            justify-content: flex-end;
+            gap: 1.5rem;
             li {
-                margin: 0 1rem;
                 a {
-                    font-size: 20.5px;
                     text-transform: uppercase;
-                    color: black;
-
-                    &:hover {
+                    color: grey;
+                    font-size: 15px;
+                    font-weight: bold;
+                    
+                    &:hover{
                         color: dodgerblue;
                     }
+    
+                    
                 }
             }
         }
     }
-
-
-    .active {
-        text-decoration: underline dodgerblue;
-        color: dodgerblue;
-    }
-
 }

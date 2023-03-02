@@ -1,7 +1,7 @@
 main {
     padding: 0 12.5%;
     background-color: #1C1C1C;
-    color: white;
+    // color: white;
     min-height: 750px;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@ main {
         margin: 2rem;
 
         .card {
-            flex-basis: calc(100% / 6);  
+            flex-basis: calc(100% / 4);  
             margin: 1.5rem 10px;
             transition: transform 0.25s;
 
@@ -26,7 +26,7 @@ main {
                 img {
                     display: block;
                     height: 200px;
-                    width: 200px;
+                    // width: 200px;
                     cursor: pointer;         
                 }
 

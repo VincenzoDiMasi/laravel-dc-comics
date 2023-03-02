@@ -1,17 +1,19 @@
 <header>
     
-    <div class="header-top">
+    <div id="blue-stripe">
         <ul>
             <li>
+                <a href=""></a>
                 <a href="#">DC POWER VISA</a>
             </li>
             <li>
                 <a href="#">ADDITIONAL DC SITES</a>
             </li>
         </ul>
+        
     </div>
     
-    <div class="header-bottom">
+    <div class="container d-flex align-items-center justify-content-around">
         <figure>
             <a href="/">
                 <img src="{{ asset('img/dc-logo.png') }}" alt="">
