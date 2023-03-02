@@ -17,7 +17,7 @@
 
     
     <main>
-        <div class="card-container">
+        <div class="card-container py-3">
             @foreach ($cards as $card)
                 <div class="card">
                     <div class="comic-card">
@@ -29,7 +29,10 @@
                 </div>
             @endforeach 
 
-            <button class="btn-blue">Load more</button>
+            <div class="d-flex justify-content-center">
+                <button class="btn-blue">Load more</button>
+                <a class="btn-success btn ms-3 btn-add" href="{{route('comics.create')}}">Add new comic</a>
+            </div>
         </div>
     </main>
 
